@@ -1,1 +1,24 @@
 # Weather-Web
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather App</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div id="weatherResult" class="weather-result">
+            <!-- Weather info will appear here -->
+        </div>
+    </div>
+
+    <script src="apna.js"></script>
+</body>
+</html>
